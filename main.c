@@ -4,7 +4,7 @@ int f1(int n){
     if (n ==0 || n == 1){
         return 1;
     }else {
-        return f1(n-3) + f1(n-1);
+        return f1(n-2) + f1(n-1);
     }
 }
 void f2(){
