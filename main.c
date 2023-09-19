@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<stdlib.h>
+int f1(int n){
+    if (n ==0 || n == 1){
+        return 1;
+    }else {
+        return f1(n-3) + f1(n-1);
+    }
+}
+void f2(){
+}
+int main(){
+   f1();
+   f2();
+}
