@@ -8,6 +8,7 @@ int f1(int n){
     }
 }
 void f2(){
+    printf("Hello Wolrd");
 }
 int main(){
    f1();
